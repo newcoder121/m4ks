@@ -44,108 +44,151 @@
 
 .LinearerVerlauf1 {
   position: absolute;
-  width: 1264px;
-  height: 1080px;
-  left: 612px;
-  top: 0px;
+  width: 850px;
+  height: 1040px;
+  left: 382px;
+  top: -160px;
 }
 
 .KompetenzzentreneStandards2 {
   position: absolute;
-  width: 250px;
-  height: 73px;
-  left: 40px;
-  top: 43px;
+  width: 175px;
+  height: 63px;
+  left: 35px;
+  top: 15px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans");
 
-.txt {
+
+#container{
+  margin:20px 480px;
+  width: 700px;
+  height: 500px;
+  border: 1px solid black;
+}
+.linear{
+  width: 1200px;
+  height: 1000px;
+  transform: scale(0.7);
+  margin: -200px -310px;
+  background: url('Linearer Verlauf 1.svg');
+
+}
+
+.kreis{
+  width: 1200px;
+  height: 1000px;
+  transform: scale(0.7);
+  margin: -200px -310px;
+  background: url('Kreis Verlauf.svg');
+}
+
+.headerLine1 {
   position: absolute;
-  width: 764px;
-  height: 95px;
-  left: 110px;
-  top: 245px;
+  width: 220px;
+  left: 90px;
+  top: 120px;
 
   font-family: Comfortaa;
   font-style: normal;
   font-weight: bold;
-  font-size: 72px;
+  font-size: 42px;
   line-height: 60px;
-  /* or 83% */
+  color: #2c2e34;
+}
 
+.headerLine2 {
+  position: absolute;
+  width: 220px;
+  left: 90px;
+  top: 160px;
+
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 60px;
   color: #2c2e34;
 }
 
 .para {
   position: absolute;
-  width: 506px;
-  height: 386px;
-  left: 118px;
-  top: 430px;
-
+  width: 366px;
+  left: 95px;
+  top: 250px;
+  line-height: 1.6;
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  /* line-height: 32px; */
-  /* or 178% */
-
+  font-size: 13px;
   color: #2c2e34;
 }
 
-
 .Linearwirtschaft {
   position: absolute;
-  left: 543px;
-  top: 132px;
+  left: 338px;
+  top: 72px;
 
   font-family: Noto sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 12px;
   color: #2c2e34;
 }
 
 .Kreislaufwirtschaft {
   position: absolute;
-  left: 543px;
-  top: 158px;
+  left: 338px;
+  top: 96px;
 
   font-family: Noto Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 12px;
   color: #2c2e34;
 }
 
 .radio-button-1{
   position: absolute;
-  left: 523px;
-  top: 132px;
+  left: 313px;
+  top: 70px;
 }
 
 .radio-button-2{
   position: absolute;
-  left: 523px;
-  top: 160px;
+  left: 313px;
+  top: 94px;
 }
 
-.Klicke {
+.KlickeLine1 {
   position: absolute;
-  width: 138px;
+  width: 108px;
   height: 44px;
-  left: 543px;
-  top: 170px;
+  left: 338px;
+  top: 112px;
 
   font-family: Noto Sans;
   font-style: italic;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 8px;
   line-height: 18px;
-  /* or 150% */
+  color: #2c2e34;
+}
 
+.KlickeLine2 {
+  position: absolute;
+  width: 108px;
+  height: 44px;
+  left: 338px;
+  top: 124px;
+
+  font-family: Noto Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 8px;
+  line-height: 18px;
   color: #2c2e34;
 }
 
@@ -153,16 +196,14 @@
   position: absolute;
   width: 60px;
   height: 25px;
-  left: 1845px;
-  top: 407px;
+  left: 1220px;
+  top: 207px;
 
   font-family: Noto Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 18px;
-  /* or 112% */
-
   color: #b93924;
 }
 
@@ -172,16 +213,14 @@
   border: transparent;
   width: 120px;
   height: 20px;
-  left: 1796px;
-  top: 517px;
+  left: 1160px;
+  top: 285px;
 
   font-family: Noto Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 18px;
-  /* or 112% */
-
   color: #2c2e34;
 }
 
@@ -191,16 +230,14 @@
   border: transparent;
   width: 99px;
   height: 24px;
-  left: 1796px;
-  top: 622px;
+  left: 1168px;
+  top: 348px;
 
   font-family: Noto Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 18px;
-  /* or 112% */
-
   color: #2c2e34;
 }
 
@@ -210,85 +247,84 @@
   border: transparent;
   width: 157px;
   height: 24px;
-  left: 1738px;
-  top: 727px;
+  left: 1120px;
+  top: 415px;
 
   font-family: Noto Sans;
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 18px;
-  /* or 112% */
-
   color: #2c2e34;
 }
 
-.Ressourcen {
+.Ressourcen{
   position: absolute;
   border-color: black;
   background-color: transparent;
-  width: 147px;
-  height: 147px;
-  left: 808px;
-  top: 84px;
+  width: 77px;
+  height: 77px;
+  left: 528px;
+  top: 44px;
 }
 
 .Design {
   position: absolute;
   border-color: black;
   background-color: transparent;
-  width: 147px;
-  height: 147px;
-  left: 1169px;
-  top: 100px;
+  width: 77px;
+  height: 77px;
+  left: 749px;
+  top: 80px;
 }
 
 .Produktion {
   position: absolute;
   border-color: black;
   background-color: transparent;
-  width: 147px;
-  height: 147px;
-  left: 1462px;
-  top: 159px;
+  width: 77px;
+  height: 77px;
+  left: 972px;
+  top: 99px;
 }
 
 .Vertrieb {
   position: absolute;
   border-color: black;
   background-color: transparent;
-  width: 147px;
-  height: 147px;
-  left: 1576px;
-  top: 365px;
+  width: 77px;
+  height: 77px;
+  left: 1056px;
+  top: 255px;
 }
 
 .Nutzung {
   position: absolute;
   border-color: black;
   background-color: transparent;
-  width: 147px;
-  height: 147px;
-  left: 1472px;
-  top: 566px;
+  width: 77px;
+  height: 77px;
+  left: 992px;
+  top: 406px;
 }
 
 .Nutzungsende {
   position: absolute;
   border-color: black;
   background-color: transparent;
-  width: 147px;
-  height: 147px;
-  left: 1169px;
-  top: 675px;
+  width: 77px;
+  height: 77px;
+  left: 759px;
+  top: 455px;
 }
 
 .Entsorgung {
   position: absolute;
   border-color: black;
   background-color: transparent;
-  width: 147px;
-  height: 147px;
-  left: 848px;
-  top: 681px;
+  width: 77px;
+  height: 77px;
+  left: 558px;
+  top: 451px;
 }
+
