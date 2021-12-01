@@ -260,8 +260,8 @@
 
 .Ressourcen{
   position: absolute;
-  border-color: black;
-  background-color: transparent;
+  border-color: transparent;
+  background-color: transparent; 
   width: 77px;
   height: 77px;
   left: 528px;
@@ -270,7 +270,7 @@
 
 .Design {
   position: absolute;
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
   width: 77px;
   height: 77px;
@@ -280,7 +280,7 @@
 
 .Produktion {
   position: absolute;
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
   width: 77px;
   height: 77px;
@@ -290,7 +290,7 @@
 
 .Vertrieb {
   position: absolute;
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
   width: 77px;
   height: 77px;
@@ -300,31 +300,31 @@
 
 .Nutzung {
   position: absolute;
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
-  width: 77px;
-  height: 77px;
-  left: 992px;
+  width: 45px;
+  height: 45px;
+  left: 1010px;
   top: 406px;
 }
 
 .Nutzungsende {
   position: absolute;
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
-  width: 77px;
-  height: 77px;
+  width: 60px;
+  height: 60px;
   left: 759px;
   top: 455px;
 }
 
 .Entsorgung {
   position: absolute;
-  border-color: black;
+  border-color: transparent;
   background-color: transparent;
-  width: 77px;
-  height: 77px;
-  left: 558px;
-  top: 451px;
+  width: 60px;
+  height: 60px;
+  left: 538px;
+  top: 461px;
 }
 
